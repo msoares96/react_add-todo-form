@@ -1,4 +1,4 @@
-import { User } from './User';
+/* import { User } from './User'; */
 
 export type Todo = {
   id: number;
@@ -6,4 +6,11 @@ export type Todo = {
   completed: boolean;
   userId: number;
   user: User | null;
+};
+
+type User = {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
 };
