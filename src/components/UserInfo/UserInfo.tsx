@@ -1,4 +1,4 @@
-import { User } from '../../types/Todo';
+import { User } from '../../types/User';
 
 type Props = {
   user: User;
