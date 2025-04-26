@@ -2,7 +2,7 @@ import './App.scss';
 
 import usersFromServer from './api/users';
 import todosFromServer from './api/todos';
-import { User } from './types/User';
+import { User } from './types/Todo';
 import { TodoList } from './components/TodoList';
 import { useState } from 'react';
 import { Todo } from './types/Todo';

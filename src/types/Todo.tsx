@@ -8,7 +8,7 @@ export type Todo = {
   user: User | null;
 };
 
-type User = {
+export type User = {
   id: number;
   name: string;
   username: string;
